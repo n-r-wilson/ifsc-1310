@@ -1,0 +1,292 @@
+
+
+.slice{
+  width:100vw;
+  background-color: rgba(256,256,256,1);
+  box-shadow:0 4px 8px rgba(0,0,0,.4);
+  padding:20px;
+  display:flex;
+  align-content:center;
+  justify-content:center;
+}
+
+footer{
+  width:100vw;
+  height:auto;
+  background-color: rgba(0,30,50,1);
+  box-shadow:0 4px 8px rgba(0,0,0,.4);
+  padding:5px;
+  color:white;
+  text-align:center;
+  display:flex;
+  align-content:center;
+  justify-content:center;
+}
+
+
+
+footer  a:link, footer a:visited{
+  color: rgba(120,120,120,1);
+}
+
+footer a:hover, footer a:active{
+  color: rgba(120,120,120,1);
+  text-decoration:none;
+}
+
+
+#dragon img{
+  float:left;
+  width:100%;
+  height:auto;
+  max-height:230px;
+}
+
+#dragon{
+  display:flex;
+  flex-direction:row;
+}
+
+#configurations{
+  display:flex;
+  flex-direction:column;
+  align-content:center;
+  justify-content:center;
+}
+
+#photos img{
+  max-height:400px;
+  width:auto;
+  margin:20px;
+  border:5px;
+  box-shadow:0 4px 8px rgba(0,0,0,.4);
+}
+
+.transparent{
+  background-image: url("../img/nebula-space-blue-12k-2v-7680x4320.jpg");
+  background-attachment:fixed;
+  background-image:center;
+}
+
+.transparent p, ul, h1, h2, h3{
+  color:white;
+}
+
+.container{
+  margin:auto;
+  width:80vw;
+  height:90%;
+  padding:5px;
+  max-width:1600px;
+  background-color: rgba(0,0,30,0);
+}
+
+.content-right{
+  float:right;
+  width:80vw;
+  height:90%;
+  max-width:55%;
+}
+
+.content-left{
+  float:left;
+  width:80vw;
+  height:90%;
+  max-width:55%;
+}
+
+figure{
+  display:flex;
+  flex-direction:column;
+  align-content:center;
+  justify-content:center;
+}
+
+
+#configurations + .content-right, #configurations + .content-left{
+  background-color: rgba(0,0,0,.7);
+  border-radius: 20px;
+}
+
+.navbar{
+  align-items:center;
+  padding:15px;
+  height:40px;
+  align-items:center;
+  box-shadow:0 4px 8px rgba(0,0,0,.4);
+  background-color:rgba(240,240,240,1);
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+}
+
+.img-left{
+  float:left;
+  width: 100%;
+  height:auto;
+  max-height: 300px;
+  clear:both;
+}
+
+.img-right{
+  float:right;
+  width: 100%;
+  height:auto;
+  max-height: 300px;
+  clear:both;
+}
+
+.figleft{
+  float:left;
+  max-width: 30%;
+  border: 3px #000000;
+  color:#A0A0A0;
+}
+
+.figright{
+  float:right;
+  max-width: 30%;
+  border: 3px #000000;
+  color:#A0A0A0;
+}
+
+header.navbar img{
+  float:left;
+  max-height:90%;
+  width:auto;
+}
+
+header.navbar nav li{
+  font-family: "Goldman", cursive;
+  list-style-type:none;
+  padding:0;
+}
+
+header.navbar nav ul{
+  float:right;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  align-items:center;
+  padding:0;
+  width:30%;
+  max-width:900px;
+}
+
+header.navbar nav a:link, header.primary nav a:visited{
+  color:ffaaff;
+  text-decoration:none;
+  background-color: #000000;
+  background-color: rgba(0,0,0,0);
+  padding:8px 16px;
+  
+  transition:.6s;
+}
+
+header.navbar nav a:hover, header.primary nav a:active{
+  color: rgba(0,0,0,1);
+}
+
+.banner{
+  font-family: "Goldman", cursive;
+  text-align:center;
+  height:350px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  background-image: url("../img/nebula-space-blue-12k-2v-7680x4320.jpg");
+  background-attachment:fixed;
+  background-image:center;
+}
+
+.banner h1 a{
+  font-size:70px;
+  color:#ffffff;
+  text-decoration:none;
+  text-shadow: 10px 10px #2200AA;
+  
+}
+
+.banner h2{
+  color:#ffffff;
+  font-size:15;
+  /* Shorhand Three Value Top, Left/Right, Bottom*/
+  margin: 20px auto 40px;
+}
+
+
+table{
+  width:100%;
+  border-collapse:collapse;
+}
+
+caption{
+  font-weight:bold;
+  font-size:1.5rem;
+  margin:10px;
+  color:white;
+}
+
+th {
+  background: rgba(00,20,70,.7);
+  color:white;
+  text-align:left;
+  padding:10px;
+}
+
+td{
+  color:white;
+  padding:5px;
+}
+
+tr:nth-child(even){
+  background: rgba(00,20,60,.7);
+}
+
+tr:nth-child(odd){
+  background: rgba(00,10,40,.7);
+}
+
+tr:hover{
+  background: rgba(0,40,90,.7);
+}
+
+#table{
+  background-color: rgba(0,0,0,.7);
+  border-radius: 20px;
+  padding:15px;
+  margin:50px;
+}
+
+em{
+    font-size:30px;
+    color:rgba(0,90,130,1);
+}
+
+#QA h3{
+  color:black;
+}
+
+#QA + .transparent h3, #QA + .transparent p{
+    color:white;
+}
+
+#configurations + .transparent h2, #configurations + .transparent h3{
+  text-align:center;
+}
+
+#photos{
+  display:flexbox;
+  align-content:center;
+  justify-content:center;
+}
+
+
+
+
+
+
+
