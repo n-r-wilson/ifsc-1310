@@ -7,39 +7,151 @@
   <title>IFSC 1310 | Noah Wilson</title>
   <meta name="description" content="My homepage for IFSC-1310" />
   <meta name="author" content="Noah Wilson" />
-
+  <link rel="stylesheet" href="assets/css/style.css" />
+  
+  <link href="https://fonts.googleapis.com/css2?family=Goldman:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@800&display=swap" rel="stylesheet">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle/3.03/jquery.cycle.all.min.js"></script>
+  
+  <script src="assets/js/local-calls.js"></script>
+  
 </head>
 
 <body>
-  <h1>Noah Wilson</h1>
-  <nav>
-    <ul>
-      <li><a href="gordo/index.html">Prototype HTML Assignment</a></li>
-      <li><a href="css-demo/index.html">CSS Demo Assignment</a></li>
-      <li><a href="assets/img/flexboxfrog.png">Flexbox Froggy</a></li>
-      <li>Positioning Exercises</li>
-        <ul>
-          <li><a href="positioning-lab/float-1.html">Float 1</a></li>
-          <li><a href="positioning-lab/float-2.html">Float 2</a></li>
-          <li><a href="positioning-lab/absolute-1.html">Absolute 1</a></li>
-          <li><a href="positioning-lab/absolute-2.html">Absolute 2</a></li>
-        </ul>
-      <li>Gravit</li>
-        <ul>
-          <li><a href="assets/img/starco.jpg">StarCo Logo</a></li>
-          <li><a href="assets/img/thebearminimum.jpg">Background Removal Exercise</a></li>
-        </ul>
-      </li>
-      <li><a href="spacex-dragon/index.html">SpaceX Website Project</a></li>
-    </ul>
-  </nav>
   
-  <h2>Progressive Enhancement</h2>
-  <p>Progressive Enhancement is a method of web design which focuses on building out from the content, making an experience that works across older and modern web browsers.
-   The process begins with making sure that the HTML alone provides a usable experience for those wishing to access the site’s content from a more limited browser.
-   The next step is writing CSS around that HTML in such a way that the addition of CSS is not harming the HTML-only experience. Finally, the site or page is given a layer of unobtrusive JavaScript to enhance the experience for browsers that support it (again, without harming the HTML-only or HTML + CSS experiences).
-   I think this approach to web design makes sense, and I can see where it would have utility even without considering the need for backwards compatibility with more limited browsers. The approach of building the site from the content outwards means the designer is more likely to follow good practice in marking up their HTML and write CSS that can be more easily reused on other pages and sites.
-   The idea of unobtrusive JS also seems like a good rule of thumb for creating an easily navigable user interface for a site. I do also see where this approach can be limiting though. If a web designer wants to flex their abilities to create a site with very advanced CSS and JS, where the code is really the content itself, using a method of Progressive Enhancement may not necessarily be the best or most practical approach.
-   I also read <a href="https://www.w3.org/wiki/Graceful_degradation_versus_progressive_enhancement">this article</a>, which gives an interesting example of using progressive enhancement to implement a print page function: <a href="https://www.w3.org/wiki/Graceful_degradation_versus_progressive_enhancement">https://www.w3.org/wiki/Graceful_degradation_versus_progressive_enhancement</a></p>
+  <header>
+    <h3>IFSC 1310 | Noah Wilson</h3>
+  </header>
+  
+  <div class="bgimage">
+    <div class="titleframe"><h1>Web Technology Projects</h1></div>
+    
+    
+    <div class="container" id="assignments">
+      
+      <a id="prev" href="#"> < </a>
+      
+      <div class="gallery">
+        
+        <div class="project">
+          <h2><a href="gordo/index.html">Prototype HTML Assignment</a></h2>
+          <div class="thumbnail">
+            <img src="assets/img/htmlthumbnail.jpg" alt="Prototype HTML assignment" />
+          </div>
+        </div>
+        
+        <div class="project">
+          <h2><a href="css-demo/index.html">CSS Demo Assignment</a></h2>
+          <div class="thumbnail">
+            <img src="assets/img/cssthumbnail.jpg" alt="CSS Demo assignment" />
+          </div>
+        </div>
+        
+        <div class="project">
+          <h2><a href="assets/img/flexboxfrog.png">Flexbox Froggy</a></h2>
+          <div class="thumbnail">
+            <img src="assets/img/flexboxfrog.png" alt="Flexbox Froggy" />
+          </div>
+        </div>
+        
+        <div class="project">
+            <h2>Positioning Exercises</h2>
+            <div class="quad">
+              <div class="topleft">
+                <h3><a href="positioning-lab/float-1.html">Float 1</a></h3>
+                <img src="assets/img/float1thumbnail.jpg" alt="Float 1" />
+              </div>
+              <div class="topright">
+                <h3><a href="positioning-lab/float-2.html">Float 2</a></h3>
+                <img src="assets/img/float2thumbnail.jpg" alt="Float 2" />
+                </div>
+              <div class="bottomleft">
+                <h3><a href="positioning-lab/absolute-1.html">Absolute 1</a></h3>
+                <img src="assets/img/abs1thumbnail.jpg" alt="Absolute 1" />
+                </div>
+              <div class="bottomright">
+                <h3><a href="positioning-lab/absolute-2.html">Absolute 2</a></h3>
+                <img src="assets/img/abs2thumbnail.jpg" alt="Absolute 2" />
+                </div>
+            </div>
+          <div class="clear"></div>
+        </div>
+        
+        <div class="project">
+          <h2>Gravit</h2>
+          <div class="quad">
+              <div class="topleft">
+                <h3><a href="assets/img/starco.jpg">StarCo Logo</a></h3>
+                <img src="assets/img/starco.jpg" alt="StarCo Logo" />
+              </div>
+              <div class="topright">
+                <h3><a href="assets/img/thebearminimum.jpg">Background Removal Exercise</a></h3>
+                <img src="assets/img/thebearminimum.jpg" alt="Background Removal Exercise" />
+              </div>
+          </div>
+        </div>
+        
+        <div class="project">
+          <h2><a href="spacex-dragon/index.html">SpaceX Website Project</a></h2>
+          <div class="thumbnail">
+            <img src="assets/img/spacexthumbnail.jpg" alt="SpaceX Website Project" />
+          </div>
+        </div>
+        
+        <div class="project">
+          <h2><a href="cycle/index.html">Cycle Lab</a></h2>
+          <div class="thumbnail">
+            <img src="assets/img/cyclethumbnail.png" alt="Cycle Lab" />
+          </div>
+        </div>
+        
+        <div class="project">
+          <h2><a href="spacex-dragon-v2/index.html">SpaceX Website Project V2</a></h2>
+          <div class="thumbnail">
+            <img src="assets/img/spacex2thumbnail.jpg" alt="SpaceX Website Project V2" />
+          </div>
+        </div>
+        
+      </div>
+      
+      <a id="next" href="#"> > </a>
+      
+    </div>
+    
+    
+    
+  </div>
+  
+  <footer>
+    <div class="container">
+      
+      <h2>Progressive Enhancement</h2>
+      <p>Progressive Enhancement is a method of web design which focuses on building out from the content, making an experience that works across older and modern web browsers.
+       The process begins with making sure that the HTML alone provides a usable experience for those wishing to access the site’s content from a more limited browser.
+       The next step is writing CSS around that HTML in such a way that the addition of CSS is not harming the HTML-only experience. Finally, the site or page is given a layer of unobtrusive JavaScript to enhance the experience for browsers that support it (again, without harming the HTML-only or HTML + CSS experiences).</p>
+       I think this approach to web design makes sense, and I can see where it would have utility even without considering the need for backwards compatibility with more limited browsers. The approach of building the site from the content outwards means the designer is more likely to follow good practice in marking up their HTML and write CSS that can be more easily reused on other pages and sites.
+       The idea of unobtrusive JS also seems like a good rule of thumb for creating an easily navigable user interface for a site.</p>
+      <p>I do also see where this approach can be limiting though. If a web designer wants to flex their abilities to create a site with very advanced CSS and JS, where the code is really the content itself, using a method of Progressive Enhancement may not necessarily be the best or most practical approach.
+       I also read <a href="https://www.w3.org/wiki/Graceful_degradation_versus_progressive_enhancement">this article</a>, which gives an interesting example of using progressive enhancement to implement a print page function: <a href="https://www.w3.org/wiki/Graceful_degradation_versus_progressive_enhancement">https://www.w3.org/wiki/Graceful_degradation_versus_progressive_enhancement</a></p>
+      
+      <h2>Final Project Reflection</h2>
+      <p>The first SpaceX assignment was quite the challenge for me. I was reletively happy with how my first version of the site turned out, aside from a few issues with the way the images and text scaled in certain areas. There was also a bug where the screen would be able to scroll horizontally when it shouldn't and the user could see the elements cutting off on the edge. (This ended up being due to using 100vw for the width of some elements.)
+        Other than that, I think the site looked nice if not a bit small and simple. I asked a few family members to browse the site and give me feedback, but I didn't get much in the way of helpful criticism.</p>
+      <p>Going into the revision project, I wanted to fix the scrolling bug and implement the Cycle plugin to make the site less static. I ended up using the cycle for both the "configurations" section and the image at the bottom of the screen, which is now a slideshow.
+       Although the extent of my revision was fixing an error and adding 2 slideshows, it ended up taking a long time figuring out how to make the formatting work within the limits of Cycle. I found that Cycle doesn't like to play nice with flexbox, which made things much more difficult.</p>
+      <p>My biggest takeaway from doing both versions of the SpaceX site was that I needed to be more organized and follow good practices for naming things and using classes/ids. I am a bit sporadic in my thinking when working on something creative, and I found that I was sometimes getting disoriented in my CSS because I had started on one thing, jumped over to another, had given a class a stupid name, or just genereally didn't know how to approach a certain design task.</p>
+      <p>After finishing the SpaceX site v2, I started working on my homepage. I wanted to make it something that I genuinely found nice to look at, and I'm pretty proud of how it turned out. It's really even more simple than my SpaceX site, but the CSS and HTML is much easier to read, and much more organized. I also found out about display:grid and used it to help with the positioning of objects in the projects cycle. </p>
+      <p>Looking back on all of my work this semester, I'm pretty satisfied with how I've done. I think I have learned a lot about HTML and CSS, and the small intro to JS has given me lots of ideas to experiment with in the future. Although web design isn't my major, I definitely intend to continue working on my CSS skills in the future.
+       I've wanted to get into independent game development for a long time now, and I like the idea of building my own website for it, even if it is just a hobby or side gig. And who knows, I may end up deciding I don't enjoy computer science and come back to web design one day as a career instead.</p>
+      
+      
+      
+    </div>
+  </footer>
+  
 </body>
 </html>

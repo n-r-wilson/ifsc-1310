@@ -1,0 +1,358 @@
+
+
+
+
+.slice{
+  background-color: rgba(256,256,256,1);
+  box-shadow:0 4px 8px rgba(0,0,0,.4);
+  display:flex;
+
+  align-content:center;
+  justify-content:center;
+}
+
+footer{
+  height:auto;
+  background-color: rgba(0,30,50,1);
+  padding:5px, 0px;
+  color:white;
+  text-align:center;
+  display:flex;
+  align-content:center;
+  justify-content:center;
+}
+
+img{
+  max-width:100%;
+  height:auto;
+}
+
+footer  a:link, footer a:visited{
+  color: rgba(120,120,120,1);
+}
+
+footer a:hover, footer a:active{
+  color: rgba(120,120,120,1);
+  text-decoration:none;
+}
+
+
+#dragon img{
+  float:left;
+  margin: 10px 20px 10px 0;
+  padding:5px;
+  max-width:300px;
+}
+
+#dragon{
+  display:flex;
+  flex-direction:row;
+}
+
+#photos img{
+  max-height:400px;
+  width:auto;
+  margin:20px;
+  border:5px;
+  box-shadow:0 4px 8px rgba(0,0,0,.4);
+}
+
+.transparent{
+  background-image: url("../img/nebula-space-blue-12k-2v-7680x4320.jpg");
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-image:center;
+}
+
+.transparent p, ul, h1, h2, h3{
+  color:white;
+}
+
+.container{
+  margin:auto;
+  width:80vw;
+  height:auto;
+  padding:5px;
+  max-width:1600px;
+  background-color: rgba(0,0,30,0);
+}
+
+
+
+figure{
+  border: 3px #000000;
+  color:#A0A0A0;
+  display:flex;
+  flex-direction:column;
+  align-content:center;
+  justify-content:center;
+}
+
+figure img{
+  max-height:80%;
+  max-width:100%;
+  width:auto;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0px;
+}
+
+.img-left{
+  float:left;
+  width: 100%;
+  height:auto;
+  max-height: 300px;
+  clear:both;
+}
+
+.img-right{
+  float:right;
+  width: 100%;
+  height:auto;
+  max-height: 300px;
+  clear:both;
+}
+
+.figleft{
+  float:left;
+  width:400px;
+}
+
+.content-left{
+  float:left;
+  width:350px;
+  height:auto;
+}
+
+.figright{
+  float:right;
+  max-width:350px;
+}
+
+
+.navbar{
+  height:auto;
+  background-color:rgba(240,240,240,1);
+}
+
+.clear{
+  clear: both;
+  display: block;
+}
+
+header.navbar img{
+  float:left;
+  max-height:30px;
+  width:auto;
+  margin:10px;
+  margin-left:30px;
+}
+
+header.navbar nav li{
+  font-family: "Goldman", cursive;
+  list-style-type:none;
+}
+
+
+
+header.navbar nav ul{
+  float:right;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  align-items:center;
+  margin:10px;
+  margin-top:20px;
+  margin-right:40px;
+  width:30%;
+  max-width:600px;
+}
+
+header.navbar nav a:link, header.primary nav a:visited{
+  color:ffaaff;
+  text-decoration:none;
+  background-color: #000000;
+  background-color: rgba(0,0,0,0);
+  padding:8px 16px;
+  
+  transition:.6s;
+}
+
+header.navbar nav a:hover, header.primary nav a:active{
+  color: rgba(0,0,0,1);
+}
+
+.banner{
+  font-family: "Goldman", cursive;
+  text-align:center;
+  height:350px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  background-image: url("../img/nebula-space-blue-12k-2v-7680x4320.jpg");
+  background-attachment:fixed;
+  background-image:center;
+  clear:both;
+}
+
+.banner h1 a{
+  font-size:70px;
+  color:#ffffff;
+  text-decoration:none;
+  text-shadow: 10px 10px #2200AA;
+}
+
+.banner h2{
+  color:#ffffff;
+  font-size:15;
+  /* Shorhand Three Value Top, Left/Right, Bottom*/
+  margin: 20px auto 40px;
+}
+
+table{
+  width:100%;
+  border-collapse:collapse;
+}
+
+caption{
+  font-weight:bold;
+  font-size:1.5rem;
+  margin:10px;
+  color:white;
+}
+
+th {
+  background: rgba(00,20,70,.7);
+  color:white;
+  text-align:left;
+  padding:10px;
+}
+
+td{
+  color:white;
+  padding:5px;
+}
+
+tr:nth-child(even){
+  background: rgba(00,20,60,.7);
+}
+
+tr:nth-child(odd){
+  background: rgba(00,10,40,.7);
+}
+
+tr:hover{
+  background: rgba(0,40,90,.7);
+}
+
+#table{
+  background-color: rgba(0,0,0,.7);
+  border-radius: 20px;
+  padding:15px;
+  margin:50px;
+}
+
+em{
+    font-size:30px;
+    color:rgba(0,90,130,1);
+}
+
+#QA h3{
+  color:black;
+}
+
+#QA + .transparent h3, #QA + .transparent p{
+    color:white;
+}
+
+#photo-gallery{
+  height:400px;
+  display:flex;
+	flex-direction:column;
+	justify-content:center;
+  align-items:center;
+  overflow: hidden;
+}
+
+.photos img{
+  max-width:400px;
+  height:300px;
+}
+
+.photos{
+  width:400px;
+  height:500px;
+  overflow: hidden;
+  margin-top:50px;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+
+#configurations h1{
+  font-family: "Goldman", cursive;
+  text-align:center;
+}
+
+#configurations h2, #configurations h3 {
+  font-family: "Goldman", cursive;
+  margin:10px;
+  margin-left:40px;
+}
+
+#configurations li {
+  margin-top:7px;
+}
+
+#configurations {
+  padding-top:10px;
+  padding-bottom:20px;
+  flex-direction:column;
+  justify-content:center;
+  align-content:center;
+}
+
+#configurations .container {
+  width:900px;
+  background-color: rgba(0,0,0,.3);
+  height:450px;
+}
+
+.gallery {
+  width:900px;
+  height:auto;
+  margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom:20px;
+	overflow: hidden;
+	min-height:450px;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+  align-items:center;
+}
+
+
+
+@media screen and (max-width:1000px){
+  
+
+.gallery {
+  height: 800px;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+  display:block;
+}
+
+#configurations .container {
+  width:500px;
+  height: 720px;
+  flex-direction:column;
+}
+  
+}
